@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">Services</a></li>
+          <li><a class="nav-link" href="#">Product</a></li>
+          <li><a class="nav-link" href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <h1>Login Form</h1>
+    </header>
+    <main>
+      <img
+        src="/loginFormProject/assets/profile-image-css-login-page-project_tS9W4AV3q.webp"
+        alt="Profile Image"
+      />
+      <form>
+        <div class="user-name common">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter Username"
+          />
+        </div>
+        <div class="password common">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Password"
+          />
+        </div>
+        <div class="button common"><button type="submit">Login</button></div>
+        <div class="checkbox">
+          <input type="checkbox" name="remember" id="remember" />
+          <label for="remember">Remember me</label>
+        </div>
+        <div class="forgot-password common">
+          <a href="#" id="forgot-password">Forgot Password</a>
+        </div>
+        <div class="button common"><button type="reset">Cancel</button></div>
+      </form>
+    </main>
+  </body>
+</html>

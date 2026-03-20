@@ -1,4 +1,6 @@
 # Web Dev Journey
 
 - HTML
-  - [Spider Man Tribute Page](/web-dev/movieDetailsProject/README.md)
+  - [Spider Man Tribute Page](/movieDetailsProject/README.md)
+- CSS
+  - [Login Form Project](/loginFormProject/README.md)
